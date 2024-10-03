@@ -1,0 +1,57 @@
+Script started on 2021-12-08 15:44:37-07:00
+No such schema “org.gnome.gedit.preferences.editor”
+]0;james.khalil@csa1:~/CPSC355/Assignment 6james.khalil@csa1:~/CPSC355/Assignment 6$ script.txt[Cscript.txtcscript.txtrscript.txtiscript.txtpscript.txttscript.txt script.txt[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd CPSC355/Assignment\ 5[8P[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc a5Main.o a5.o -o a5Final.o[15Pas a5.s -o a5.ogcc -c a5Main.c [1Pm4 a5.asm >a5.sas a5.s -o a5.om4 a5.asm >a5.sas a5.s -o a5.om4 a5.asm >a5.sgcc -c a5Main.c cd Assignment\ 5gcc -c a5Main.c [1Pm4 a5.asm >a5.sas a5.s -o a5.om4 a5.asm >a5.sgcc -c a5Main.c [1Pas a5.s -o a5.ogcc a5Main.o a5.o -o a5Final.o[14Pcd Assignment\ 5[8@CPSC355/[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd CPSC355/Assignment\ 5[8P[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc a5Main.o a5.o -o a5Final.o[14Pcd Assignment\ 5gcc a5Main.o a5.o -o a5Final.o[14Pcd Assignment\ 5[8@CPSC355/[C[C[C[C[C[C[C[C[C[C[C[C[C[Km4 a6.[K[K[Km4 [K[K[Ka6.asm > a6.s
+]0;james.khalil@csa1:~/CPSC355/Assignment 6james.khalil@csa1:~/CPSC355/Assignment 6$ a6.[K[K[Kgcc g[Ka6.s -o a6
+]0;james.khalil@csa1:~/CPSC355/Assignment 6james.khalil@csa1:~/CPSC355/Assignment 6$ ./a6
+
+ Invalid argument
+ Expected: ./a6 'filename'.bin
+
+]0;james.khalil@csa1:~/CPSC355/Assignment 6james.khalil@csa1:~/CPSC355/Assignment 6$ ./a6 input.bin 
+
+Opening file: input.bin 
+arctan(-0.7597627549) = -0.9500000000
+arctan(-0.7328151018) = -0.9000000000
+arctan(-0.7044940642) = -0.8500000000
+arctan(-0.6747409422) = -0.8000000000
+arctan(-0.6435011088) = -0.7500000000
+arctan(-0.6107259644) = -0.7000000000
+arctan(-0.5763752206) = -0.6500000000
+arctan(-0.5404195003) = -0.6000000000
+arctan(-0.5028432109) = -0.5500000000
+arctan(-0.4636476090) = -0.5000000000
+arctan(-0.4228539261) = -0.4500000000
+arctan(-0.3805063771) = -0.4000000000
+arctan(-0.3366748194) = -0.3500000000
+arctan(-0.2914567945) = -0.3000000000
+arctan(-0.2449786631) = -0.2500000000
+arctan(-0.1973955598) = -0.2000000000
+arctan(-0.1488899476) = -0.1500000000
+arctan(-0.0996686525) = -0.1000000000
+arctan(-0.0499583957) = -0.0500000000
+arctan(0.0000000000) = 0.0000000000
+arctan(0.0499583957) = 0.0500000000
+arctan(0.0996686525) = 0.1000000000
+arctan(0.1488899476) = 0.1500000000
+arctan(0.1973955598) = 0.2000000000
+arctan(0.2449786631) = 0.2500000000
+arctan(0.2914567945) = 0.3000000000
+arctan(0.3366748194) = 0.3500000000
+arctan(0.3805063771) = 0.4000000000
+arctan(0.4228539261) = 0.4500000000
+arctan(0.4636476090) = 0.5000000000
+arctan(0.5028432109) = 0.5500000000
+arctan(0.5404195003) = 0.6000000000
+arctan(0.5763752206) = 0.6500000000
+arctan(0.6107259644) = 0.7000000000
+arctan(0.6435011088) = 0.7500000000
+arctan(0.6747409422) = 0.8000000000
+arctan(0.7044940642) = 0.8500000000
+arctan(0.7328151018) = 0.9000000000
+arctan(0.7597627549) = 0.9500000000
+End of file reached.
+
+]0;james.khalil@csa1:~/CPSC355/Assignment 6james.khalil@csa1:~/CPSC355/Assignment 6$ exit
+exit
+
+Script done on 2021-12-08 15:46:00-07:00

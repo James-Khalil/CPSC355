@@ -1,0 +1,151 @@
+Script started on 2021-11-05 14:55:49-06:00
+]0;james.khalil@csa2:~/CPSC355/Assignment 4james.khalil@csa2:~/CPSC355/Assignment 4$ gcc assign4.s -o assign4m4 assign4.asm > assign4.s [A[19P./assign4 m4 assign4.asm > assign4.s [A
+m4: cannot open `[A': No such file or directory
+]0;james.khalil@csa2:~/CPSC355/Assignment 4james.khalil@csa2:~/CPSC355/Assignment 4$ m4 assign4.asm > assign4.s [A[K[K
+]0;james.khalil@csa2:~/CPSC355/Assignment 4james.khalil@csa2:~/CPSC355/Assignment 4$ m4 assign4.asm > assign4.s [A[5Pgcc assign4.s -o assign4m4 assign4.asm > assign4.s [A[5Pgcc assign4.s -o assign4
+]0;james.khalil@csa2:~/CPSC355/Assignment 4james.khalil@csa2:~/CPSC355/Assignment 4$ gcc assign4.s -o assign4m4 assign4.asm > assign4.s [A[5Pgcc assign4.s -o assign4m4 assign4.asm > assign4.s [A[19P./assign4 gcc assign4.s -o assign4[14P./assign4 m4 assign4.asm > assign4.s [A[5Pgcc assign4.s -o assign4m4 assign4.asm > assign4.s [A[K[3Pgcc assign4.s -o assign4[Kgdb assign4
+GNU gdb (GDB) Fedora 8.1.1-4.fc28
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+---Type <return> to continue, or q <return> to quit---
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assign4...(no debugging symbols found)...done.
+(gdb) b printP[KPyrad[Kmid
+Breakpoint 1 at 0x4006ec
+(gdb) b relocate
+Breakpoint 2 at 0x400678
+(gdb) r
+Starting program: /home/ugd/james.khalil/CPSC355/Assignment 4/assign4 
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.27-38.fc28.aarch64
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+Initial pyramid values:
+
+Breakpoint 1, 0x00000000004006ec in printPyramid ()
+(gdb) p $sx[K[Kx0
+$1 = 4195876
+(gdb) p $x0[C[1P0w0
+$2 = 4195876
+(gdb) p $w0[K1
+$3 = 4195876
+(gdb) x/i $fp
+   0xffffffffed80:	.inst	0xffffed90 ; undefined
+(gdb) x/i $fp +[K[K+4
+   0xffffffffed84:	.inst	0x0000ffff ; undefined
+(gdb) x/i $fp+4[1P $fp+4d $fp+4[C[C[C[C[C[C[K16
+0xffffffffed90:	-4656
+(gdb) x/d $fp+16[K[K20
+0xffffffffed94:	65535
+(gdb) x/d $fp+20[K[K24
+0xffffffffed98:	-1084900956
+(gdb) x/d $fp+24[K8
+0xffffffffed9c:	65535
+(gdb) n
+Single stepping until exit from function printPyramid,
+which has no line number information.
+Pyramid khafre
+	Center = (0, 0)
+	Base width = 10  Base length = 10
+	Height = 9
+	Volume = 300
+
+0x00000000004007b4 in main ()
+(gdb) nx/d $fp+2840
+0xffffffffeda4:	0
+(gdb) x/d $fp+20[C[C[C[C[C[Cn[Kx/d $fp+284
+0xffffffffeda8:	10
+(gdb) x/d $fp+240[C[C[C[C[C[Cn[Kx/d $fp+28
+0xffffffffedac:	10
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) n
+Program not restarted.
+(gdb) n
+Single stepping until exit from function main,
+which has no line number information.
+
+Breakpoint 1, 0x00000000004006ec in printPyramid ()
+(gdb) n[Kni
+0x00000000004006f0 in printPyramid ()
+(gdb) ni[Krx/d $fp+284
+0xffffffffed98:	-1084900956
+(gdb) x/d $fp+24[C[C[C[C[C[Cni[K[Krx/d $fp+2848
+0xffffffffed9c:	65535
+(gdb) x/d $fp+284[C[C[C[C[C[Cni[K[Krx/d $fp+2840
+0xffffffffed94:	65535
+(gdb) si
+0x0000000000400480 in printf@plt ()
+(gdb) si
+0x0000000000400484 in printf@plt ()
+(gdb) si
+0x0000000000400488 in printf@plt ()
+(gdb) c
+Continuing.
+Pyramid cheops
+	Center = (0, 0)
+	Base width = 15  Base length = 15
+	Height = 18
+	Volume = 1350
+
+
+Breakpoint 2, 0x0000000000400678 in relocate ()
+(gdb) csi[1Pc[Kcsix/d $fp+2084
+0xffffffffed98:	-1084900956
+(gdb) x/d $fp+24[C[C[C[C[C[Cc[Ksix/d $fp+208
+0xffffffffed9c:	65535
+(gdb) x/d $fp+284[C[C[C[C[C[Cc[Ksix/d $fp+2084[C[C[C[C[C[Cni[Kx/d $fp+2480[C[C[C[C[C[Csi[Kx/d $fp+20[K[K32
+0xffffffffeda0:	0
+(gdb) x/d $fp+322832[K[K36
+0xffffffffeda4:	0
+(gdb) x/d $fp+362[K[K2[K16
+0xffffffffed90:	-4656
+(gdb) x/d $fp+16[K[K[K[K[K15[K6
+History has not yet reached $16.
+(gdb) x/d $16fp+16362284[C[C[C[C[C[Cc[Kx/d $fp+24832616[3P16[Kx/d $16fp+16[3P16[Kc
+Continuing.
+
+Breakpoint 2, 0x0000000000400678 in relocate ()
+(gdb) c
+Continuing.
+
+New pyramid values:
+
+Breakpoint 1, 0x00000000004006ec in printPyramid ()
+(gdb) c
+Continuing.
+Pyramid khafre
+	Center = (-23, 17)
+	Base width = 10  Base length = 10
+	Height = 9
+	Volume = 300
+
+
+Breakpoint 1, 0x00000000004006ec in printPyramid ()
+(gdb) c
+Continuing.
+Pyramid cheops
+	Center = (27, -10)
+	Base width = 135  Base length = 135
+	Height = 162
+	Volume = 984150
+
+[Inferior 1 (process 10488) exited with code 022]
+(gdb) q
+]0;james.khalil@csa2:~/CPSC355/Assignment 4james.khalil@csa2:~/CPSC355/Assignment 4$ exit
+exit
+
+Script done on 2021-11-05 15:06:46-06:00
